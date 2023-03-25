@@ -8,7 +8,7 @@ const Contact = () => {
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
    
-    const [password, ] = useState('')
+    // const [password, ] = useState('')
  
     function handleSubmit(event) {
         event.preventDefault();

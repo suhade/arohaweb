@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React, {} from "react";
 import { TextField, Button } from "@mui/material";
 
  
 const Login = () => {
-    const [email, setEmail] = useState("")
+  /*  const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [emailError, setEmailError] = useState(false)
     const [passwordError, setPasswordError] = useState(false)
@@ -24,35 +24,35 @@ const Login = () => {
         if (email && password) {
             console.log(email, password)
         }
-    }
+    } */
      
     return ( 
         <>
         <section className='pagesContent'>
         <React.Fragment>
-        <form autoComplete="off" onSubmit={handleSubmit}>
+        <form autoComplete="off" >
             <h2>Welcome Back!</h2>
                 <TextField 
                     label="Email"
-                    onChange={e => setEmail(e.target.value)}
+                    /*onChange={e => setEmail(e.target.value)}*/
                     required
                     variant="outlined"
                     color="secondary"
                     type="email"
                     sx={{mb: 3}}
                     fullWidth
-                    value={email}
-                    error={emailError}
+                   // value={email}
+                   // error={emailError}
                  />
                  <TextField 
                     label="Password"
-                    onChange={e => setPassword(e.target.value)}
+                  //  onChange={e => setPassword(e.target.value)}
                     required
                     variant="outlined"
                     color="secondary"
                     type="password"
-                    value={password}
-                    error={passwordError}
+                   // value={password}
+                  //  error={passwordError}
                     fullWidth
                     sx={{mb: 3}}
                  />
