@@ -13,7 +13,7 @@ const Home = () => {
           <div className='right topMarign'>
             <h1>
               WE ARE <br />
-              DNA SPECIALIST 
+              Healthcare SPECIALIST 
             </h1>
            
             <p>Lorem ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
